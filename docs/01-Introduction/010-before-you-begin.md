@@ -3,7 +3,7 @@ id: before-you-begin
 title: Before you Begin
 hide_title: false
 hide_table_of_contents: false
-sidebar_label: Markdown
+sidebar_label: Before you Begin
 sidebar_position: 3
 description: Tips and trick before you get started
 ---

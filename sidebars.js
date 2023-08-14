@@ -6,9 +6,9 @@ module.exports = {
       dirName: '.', // generate sidebar from the docs folder 
     },
     {
-      type: 'link',
-      label: 'Lab Guide Home', 
-      href: 'https://creatorworkflowsnow.github.io/',
+      type:'link',
+      label:'Post Lab Survey',
+      href: 'https://crewteam.service-now.com/esc?id=workshop_survey&type_id=ff8cc99e877d21106af8ec6e0ebb3546',
     },
   ],
 };
