@@ -8,26 +8,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const FeatureList = [
   {
-    title: 'App Innovation',
-    Svg: require('../../static/img/AES_logo.svg').default,
-    description: (
-      <>
-        Telework Case Management
-      </>
-    ),
-    to: "/docs/telework-utah/Introduction/",
-  },
-  {
-    title: 'EWF+CrWF Department Services',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Read more
-      </>
-    ),
-    to: "/docs/tutorial/intro/",
-  },
-  {
     title: 'Collaborate to Accelerate',
     Svg: require('../../static/img/bus-management-console.svg').default,
     description: (
@@ -35,18 +15,8 @@ const FeatureList = [
         Revolutionizing Enterprise App Dev at Scale
       </>
     ),
-    to: "/docs/aemc-utah/Introduction/before-you-begin/",
-  },
-  {
-    title: 'Automation Engine',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Read more
-      </>
-    ),
-    to: "/docs/tutorial/intro/",
-  },
+    to: "/docs/Introduction/before-you-begin/",
+  }
 ];
 
 function Feature({Svg, title, description, to}) {

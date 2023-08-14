@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Creator Workshop Lab Guides',
-  tagline: 'Ready to learn something new?',
+  title: 'Collaborate to Accelerate',
+  tagline: 'Revolutionizing Enterprise App Dev at Scale',
   url: 'https://creatorworkflowsnow.github.io',
-  baseUrl: '/CreatorWorkflowsNow.github.io.v2/',
+  baseUrl: '/lab-aemc-utah-v3/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'CreatorWorkflowsNow',
-  projectName: 'CreatorWorkflowsNow.github.io.v2',
+  projectName: 'lab-aemc-utah-v3',
   trailingSlash: true,
 
   markdown: {
@@ -24,46 +24,43 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-
+          breadcrumbs: true,
         },
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false, // Optional: disable the blog plugin
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light', // Set the default mode
+        disableSwitch: true, // Disable the dark mode toggle button
+      },
       navbar: {
         title: '',
         logo: {
           alt: 'Creator Workshop Lab Guides',
           src: 'img/servicenow-logo.png',
         },
-        items: [
-          {
-            href: 'http://lowcodeworkshops.com/',
-            label: 'LowCodeWorkshops.com',
-            position: 'right',
-          },
-        ],
+        items: [{
+          href: 'http://lowcodeworkshops.com/',
+          label: 'LowCodeWorkshops.com',
+          position: 'right',
+        }, ],
       },
       footer: {
         style: 'light',
-        links: [
-          {
+        links: [{
             title: 'Docs',
-            items: [
-              {
+            items: [{
                 label: 'Product Documentation',
                 href: 'https://docs.servicenow.com/',
               },
@@ -79,8 +76,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             title: 'Community',
-            items: [
-              {
+            items: [{
                 label: 'ServiceNow Community',
                 href: 'https://www.servicenow.com/community/',
               },
@@ -112,8 +108,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             title: 'More',
-            items: [
-              {
+            items: [{
                 label: 'ServiceNow Developer',
                 href: 'https://developer.servicenow.com/',
               },
@@ -125,8 +120,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             title: 'Connect with Us',
-            items: [
-              {
+            items: [{
                 label: 'ServiceNow Developer',
                 href: 'https://developer.servicenow.com/',
               },
