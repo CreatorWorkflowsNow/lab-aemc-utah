@@ -15,7 +15,7 @@ const FeatureList = [
         Revolutionizing Enterprise App Dev at Scale
       </>
     ),
-    to: "/docs/Introduction/before-you-begin/",
+    to: "/docs/Introduction/",
   }
 ];
 
