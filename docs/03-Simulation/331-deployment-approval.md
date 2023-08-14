@@ -101,8 +101,14 @@ For more information see **[Product docs: ServiceNow application repository](htt
 
 ## Lessons Learned
 
-# You have made it!! You deployed an app with the click of a button!
+You have made it!! You deployed an app with the click of a button!
 
-## That completes the App Engine Governance Lab.
+That completes the App Engine Governance Lab!
+
+## Got feedback?
+
+Submit the [Post Lab Survey↗](https://crewteam.service-now.com/esc?id=workshop_survey&type_id=ff8cc99e877d21106af8ec6e0ebb3546)
+
+## Want to learn more? 
 
 Feel free to explore the Additional Content on the side of the page. 
