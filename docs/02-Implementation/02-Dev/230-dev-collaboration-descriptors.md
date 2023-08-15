@@ -3,7 +3,9 @@ title: Collaboration Descriptors
 ---
 # Collaboration Descriptors
 
-<button class="btn btn-green fs-3" disabled>Estimated Time to Complete: 10 minutes</button>
+import TimeEstimate from '@site/src/components/TimeEstimate';
+
+<TimeEstimate>Estimated Time to Complete: 10 minutes</TimeEstimate>
 
 ## Overview
 

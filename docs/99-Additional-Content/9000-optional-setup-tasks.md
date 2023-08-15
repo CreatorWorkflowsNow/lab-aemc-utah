@@ -4,8 +4,6 @@ title: Optional Setup Tasks
 
 # App Engine Studio Optional Setup Tasks to Consider
 
----
-
 :::caution
 This part of the lab is for information purposes only. No activity required.
 :::
@@ -83,7 +81,7 @@ Developers can leverage Flow Designer capabilities while creating logic and auto
 
 Consider restricting developer access to Flow Designer Resources using content filtering for Flow Designer. This allows administrators to manage access to Flow Designer resources and specify which features App Engine Studio users can leverage while building applications.
 
- <img src="../../assets/images/2023-07-07-16-49-07.png"/>
+![relative](../assets/images/2023-07-07-16-49-07.png)
 
 
 Flow Designer access from App Engine Studio can be updated later to provide developers with the editing capabilities that best suit their experience and needs.
@@ -103,7 +101,7 @@ Review App Engine Studio developer access to the Catalog Builder tool’s catalo
 
 By default, App Engine Studio developers can leverage catalog templates to quickly create record producers or catalog items. Developers can also publish catalog items to any catalog. If you wish to limit access to templates or restrict publishing access to catalogs or categories, update the access accordingly in Catalog Builder.
 
- <img src="../../assets/images/2023-07-07-16-53-48.png"/>
+![relative](../assets/images/2023-07-07-16-53-48.png)
 
 Catalog access from App Engine Studio can be updated at a later point to modify developer access to App Engine Studio catalogs, categories, and catalog templates.
 
@@ -125,7 +123,7 @@ The App Engine Studio application does not ship with any out-of-box Instance Sca
 
 Work with professional ServiceNow developers to configure Instance Scan definitions and enforce best practices in your environments.
 
- <img src="../../assets/images/2023-07-07-16-56-31.png"/>
+![relative](../assets/images/2023-07-07-16-56-31.png)
 
 **Enable and configure Instance Scan properties in your production instance if you plan to clone!**
 
