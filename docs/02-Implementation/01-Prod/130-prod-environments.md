@@ -50,6 +50,7 @@ For this exercise, the specific Application Scope is not critical - Global is ac
 
 1. Log in to **Prod**.
 
+
 2. Click **All** >> type **environment** >> click **Environments**
 
 ![relative](../../assets/images/2023-06-30-15-17-33.png)

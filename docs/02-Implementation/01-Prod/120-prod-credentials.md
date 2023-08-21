@@ -45,6 +45,7 @@ For this exercise, the specific Application Scope is not critical - Global is ac
 
 1. Log in to **PROD**.
 
+
 2. Navigate to **All** >> type **Connection & Credential Aliases** >> click either **Connection & Credential Aliases**.
 
 ![Navigate to Aliases](../../assets/images/2023-07-11-15-10-23.png)

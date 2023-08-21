@@ -16,6 +16,8 @@
     mermaid: true,
   },
 
+  plugins: ['docusaurus-plugin-sass'],
+
   themes: ['@docusaurus/theme-mermaid'],
 
   presets: [
@@ -28,7 +30,9 @@
         },
         blog: false, // Optional: disable the blog plugin
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.scss')
+          ],
         },
       },
     ],
