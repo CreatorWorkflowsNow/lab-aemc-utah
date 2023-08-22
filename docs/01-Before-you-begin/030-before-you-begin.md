@@ -18,7 +18,7 @@ There are several times in the exercises where you will need to copy and paste v
 
 To make this easier, we have added a clipboard icon to the end of the fields to automatically copy to your clipboard for you. 
 
-![relative](../assets/images/2023-07-31-12-33-16.png)
+![](../assets/images/2023-07-31-12-33-16.png)
 
 Here is an example to play with:
 
