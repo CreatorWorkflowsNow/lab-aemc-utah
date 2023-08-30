@@ -2,11 +2,9 @@
 title: Credentials
 ---
 
-# Create Credentials Alias
+# Exercise: Create Credential Alias
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 10 minutes</TimeEstimate>
+##### Estimated Time to Complete: 10 minutes
 
 ## Overview 
 
@@ -16,21 +14,22 @@ In this case, it will be used by App Engine Studio to access the Controller Inst
 
 You will create the Credential Alias with a user account that has already been created for you. 
 
-### Before
+### Before Exercise
 ``` mermaid
 graph LR
     subgraph Dev[Development Instance]
     end
-    style Dev fill:#D5F7FF
+    style Dev fill:#D5F7FF,stroke:#B0BAD3,stroke-width:2px,color:#333
 ```
 
-### After
+### After Exercise
 ``` mermaid
 graph LR
     subgraph Dev[Development Instance]
        Credential("Credential Alias")
     end
-    style Dev fill:#D5F7FF
+    style Dev fill:#D5F7FF,stroke:#B0BAD3,stroke-width:2px,color:#333
+    style Credential fill:#ECECFF,stroke:#B0BAD3,stroke-width:2px,color:#333;
 ```
 
 ## Instructions
@@ -44,6 +43,7 @@ Complete this section in **DEV**.
 :::
 
 1. Log in to **DEV**.
+
 
 2. Navigate to **All** >> type **Connection & Credential Aliases** >> click either **Connection & Credential Aliases**.
 
@@ -59,7 +59,9 @@ Complete this section in **DEV**.
 
 5. Set the **Name** to 'Pipeline Credentials' and click **Submit**.
 
-        Pipeline Credentials
+```
+Pipeline Credentials
+```
 
 ![Set Name](../../assets/images/2023-03-08-14-14-44.png)
 
@@ -87,15 +89,24 @@ Errors will occur if you do not use the specified password provided below.
 
 9. On the **Basic Auth Credentials** form, fill in the following values and click **Submit**.
 
-| **Field** | **Value**
-| -- | -- |
-| Name | Pipeline Service Account 
-| User name | svc_pipeline
-| Password | ILoveHyperAutomationTimes500!
-
-:::danger
-YOU MUST USE THE ENTIRE PASSWORD ABOVE!!
+:::info
+Remember to use the copy button to copy the text below.
 :::
+
+##### Username
+```
+Pipeline Service Account 
+```
+
+##### Username
+```
+svc_pipeline
+```
+
+##### Password
+```
+ILoveHyperAutomationTimes500!
+```
 
 ![Enter Credentials](../../assets/images/2023-06-27-22-50-59.png)
 

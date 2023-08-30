@@ -1,23 +1,13 @@
 ---
 title: Collaboration Approval
 ---
-# Collaboration Approval
+# Exercise: Collaboration Approval
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 5 minutes</TimeEstimate>
+##### Estimated Time to Complete: 5 minutes
 
 ## Overview
 
-When Sydney submitted the Collaboration Request in App Engine Studio, it triggered an email to Jayne prompting her to take action. 
-
-:::info
-**SUBJECT:** Developer Collaboration Task DEV0001002 Approval Request
-
-![relative](../assets/images/2023-07-11-21-20-36.png)
-:::
-
-Jayne decides to log in to take a closer look before approving. 
+Jayne will need to approve Sydney's Collaboration request for Priya to assist her with the integrations in her app. 
 
 ## Instructions 
 
@@ -31,11 +21,14 @@ You should still have a browser tab for **Prod** opened to App Engine Management
 If not, follow these quick instructions to be sure:
  
 1. Click the avatar in the top-right, then click **Impersonate another user**.
- 
+
+
 2. Type **Jayne Nigel** and click **Jayne Nigel**.
  
+
 3. Click **Impersonate user**.
  
+
 4. Click **All** >> type **app engine management** >> click **App Engine Management Center**.
  
 This will open AEMC in a new browser tab.
@@ -69,7 +62,7 @@ After Jayne approved the Collaboration Request, Sydney received an email to info
 :::info
 **SUBJECT:** Your collaborator request was approved
 
-![relative](https://creatorworkflowsnow.github.io/lab-aemc-utah-v2/assets/images/2023-07-11-21-05-07.png)
+![relative](../assets/images/2023-07-11-21-05-07.png)
 :::
 
 ## Lessons Learned

@@ -1,15 +1,13 @@
 ---
-title: Build the app
+title: Build app from template
 ---
-# Build the app
+# Exercise: Build the app from template
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 15 minutes</TimeEstimate>
+##### Estimated Time to Complete: 15 minutes
 
 ## Overview
 
-In this section, Sydney will build her app. 
+In this section, Sydney will build her app using an app template
 
 After Jayne approved her request, she received an email that her app has been approved. 
 

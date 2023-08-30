@@ -6,10 +6,6 @@ permalink: /docs/aemc-utah/prepare-envs
 
 # Prepare Environments
 
-:::caution
-This part of the lab is for information purposes only. No activity required.
-:::
-
 Before installing App Engine Studio, review all platform requirements and define an organizational instance strategy to prepare for successful installation and configuration.
 
 ## Review platform requirements

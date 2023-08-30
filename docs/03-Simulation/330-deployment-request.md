@@ -1,12 +1,9 @@
 ---
 title: Request Deployment
 ---
-# Request Deployment
+# Exercise: Request Deployment
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 5 minutes</TimeEstimate>
-
+##### Estimated Time to Complete: 5 minutes
 
 ## Overview
 
@@ -19,6 +16,7 @@ Complete this section in **DEV**.
 :::
 
 1. Log in to **Dev**.
+
 
 2. In the top right, click the user avatar icon » **Impersonate another user**.
 
@@ -57,6 +55,7 @@ If the **Submit** button is grayed out in the next step, try refreshing the page
 ![relative](../assets/images/2023-03-14-13-22-52.png)
 
 9. Scroll down.
+
 
 10. In the **Release notes** field type **Created from template**.
 

@@ -1,11 +1,9 @@
 ---
 title: Collaboration Request
 ---
-# Collaboration Request
+# Exercise: Collaboration Request
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 5 minutes</TimeEstimate>
+##### Estimated Time to Complete: 5 minutes
 
 ## Overview
 
@@ -27,11 +25,13 @@ Complete this section in **DEV**.
 
 1. Log in to **Dev**.
 
+
 2. Click the **Manage Collaborators** button. 
 
 ![relative](../assets/images/2023-07-11-19-16-07.png)
 
 3. Type 'Priya' into the field **Invite people by name or group**. 
+
 
 4. Click on her name.
 
@@ -51,10 +51,10 @@ Complete this section in **DEV**.
 
 ## Lessons Learned
 
-Throughout this exercise on requesting collaboration on an app, several key insights have been obtained, which can be useful for future instances:
+**Simplicity of Collaboration**
 
-1. **Simplicity of Collaboration**: The process of requesting collaboration within ServiceNow's App Engine Studio is straightforward and user-friendly, facilitating an efficient collaboration process. The simplicity of inviting someone by name or group minimizes confusion and accelerates the collaboration process.
+The process of requesting collaboration within ServiceNow's App Engine Studio is straightforward and user-friendly, facilitating an efficient collaboration process. The simplicity of inviting someone by name or group minimizes confusion and accelerates the collaboration process.
 
-2. **Role Assignment**: The ability to assign specific roles, like "Integration Specialist" in this case, during the invitation process allows for clearer task division and expectations. It reinforces the need to understand different roles within a team and their specific responsibilities.
+**Role Assignment**
 
-Learning from these lessons will help create an environment that promotes effective collaboration and, thus, drive better outcomes.
+The ability to assign specific roles, like "Integration Specialist" in this case, during the invitation process allows for clearer task division and expectations. It reinforces the need to understand different roles within a team and their specific responsibilities.

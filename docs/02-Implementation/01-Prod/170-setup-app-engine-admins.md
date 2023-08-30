@@ -2,16 +2,14 @@
 title: App Engine Admins
 ---
 
-# App Engine Admins
+# Exercise: App Engine Admins
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 5 minutes</TimeEstimate>
+##### Estimated Time to Complete: 5 minutes
 
 :::info
-This section has already been configured as part of the automated setup for this lab. 
-
 **THIS SECTION IS OPTIONAL AND CAN SAFELY BE SKIPPED IF YOU ARE BEHIND.**
+
+Skipping steps below will have not prevent you from completing the lab.
 :::
 
 ## Overview

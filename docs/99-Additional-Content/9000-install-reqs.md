@@ -1,18 +1,16 @@
 ---
-title: How to Install AES
+title: Install Requirements
 ---
 
-# How do I install App Engine Studio?
+# Install Requirements
 
-:::caution
-This part of the lab is for information purposes only. No activity required.
+## How do I install App Engine Studio?
 
-**App Engine Studio** and **App Engine Management Center** have already been installed onto your Lab instances. 
-:::
+App Engine Management Center is only available on ServiceNow instances that have purchased stand-alone App Engine licensing. 
 
-:::info
-Please note, the App Engine Management Center is only available on ServiceNow instances that have purchased App Engine licensing. This includes both Production and Subproduction instances, but does not extend to Personal Developer Instances (PDIs). Thus, this Lab is ideally suited for exploratory training and learning purposes.
-:::
+This includes both Production and Subproduction instances, but does not extend to Personal Developer Instances (PDIs). 
+
+Thus, this Lab is ideally suited for exploratory training and learning purposes.
 
 ## Opt-in and manage entitlements
 

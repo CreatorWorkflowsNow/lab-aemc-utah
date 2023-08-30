@@ -1,11 +1,9 @@
 ---
 title: Intake Request
 ---
-# Intake Request
+# Exercise: Intake Request
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 10 minutes</TimeEstimate>
+##### Estimated Time to Complete: 10 minutes
 
 ## Overview
 
@@ -19,7 +17,7 @@ import TimeEstimate from '@site/src/components/TimeEstimate';
 
 | Sydney Carter | Experienced IT Professional & Citizen Developer 
 |--|--|
-| ![](../assets/images/2023-03-28-15-52-55.png) | Sydney Carter, an IT veteran with diverse roles under her belt, aspires to be part of the company's Citizen Developer Program. This section outlines the steps in Sydney's journey to becoming a citizen developer.
+| ![](../assets/images/2023-08-30-15-40-26.png) | Sydney Carter, an IT veteran with diverse roles under her belt, aspires to be part of the company's Citizen Developer Program. This section outlines the steps in Sydney's journey to becoming a citizen developer.
 
 ## Instructions
 
@@ -28,7 +26,8 @@ Complete this section in **PROD**.
 :::
 
 1. Log in to **Prod**
- 
+
+
 2. In the top right, click the **System Administrator** avatar >> **Impersonate user**.
  
 ![relative](../assets/images/2023-03-14-12-31-53.png)
@@ -71,6 +70,7 @@ The answers below will NOT affect the lab. They are only suggestions.
 | **Who are the users that will have access to the data in this application?** | Anyone in the IT Department
 
 9. Click **Submit**.
+
 
 10. After the request is submitted, close the browser tab and return to the original browser tab for "Prod". 
 

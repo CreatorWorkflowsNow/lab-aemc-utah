@@ -2,11 +2,9 @@
 title: Pipeline
 ---
 
-# Configure Pipeline in Prod
+#  Exercise: Configure Pipeline in Prod
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 15 minutes</TimeEstimate>
+##### Estimated Time to Complete: 15 minutes
 
 ## Overview
 
@@ -18,7 +16,7 @@ The process involves setting up and configuring your pipeline, specifying the **
 
 The Pipeline is exclusive to the Controller Environment, which in this case is the Production instance. 
 
-### Before
+### Before Exercise
 
 ``` mermaid
 graph TD
@@ -32,11 +30,11 @@ graph TD
     end
     class Prod1 prodStyle
     class Dev,Prod envStyle
-    classDef prodStyle fill:#CCFFCC;
-    classDef envStyle fill:#F3F3F3;
+    classDef prodStyle fill:#CCFFCC,stroke:#B0BAD3,stroke-width:2px,color:#333;
+    classDef envStyle fill:#F3F3F3,stroke:#B0BAD3,stroke-width:2px,color:#333;
 ```
 
-### After
+### After Exercise
 
 ``` mermaid
 graph LR
@@ -51,12 +49,20 @@ graph LR
     Dev --> Prod
     class Prod1 prodStyle
     class Dev,Prod envStyle
-    classDef prodStyle fill:#CCFFCC;
-    classDef envStyle fill:#F3F3F3;
+    class Pipeline pipeStyle
+    classDef prodStyle fill:#CCFFCC,stroke:#B0BAD3,stroke-width:2px,color:#333,lineColor:#007bff;
+    classDef envStyle fill:#F3F3F3,stroke:#B0BAD3,stroke-width:2px,color:#333,lineColor:#007bff;
+    classDef pipeStyle fill:#FFFFDE,stroke:#B0BAD3,stroke-width:2px,color:#333,lineColor:#007bff;
+    linkStyle default stroke: black;
 ```
 
-### **EXAMPLE ONLY** 
-*If you had a Test or other Subprod environments, the Pipeline would get defined like this:*
+### Example of a Dev->Test->Prod Pipeline
+
+:::info
+In this Lab, you will only configure Dev and Prod in the Pipeline.
+
+Pipeline records are only configured in Prod. 
+:::
 
 ``` mermaid
 graph LR
@@ -74,24 +80,17 @@ graph LR
     Test --> Prod
     class Prod1 prodStyle
     class Dev,Test,Prod envStyle
-    classDef prodStyle fill:#CCFFCC;
-    classDef envStyle fill:#F3F3F3;
+    class Pipeline pipeStyle
+    classDef prodStyle fill:#CCFFCC,stroke:#B0BAD3,stroke-width:2px,color:#333,lineColor:#007bff;
+    classDef envStyle fill:#F3F3F3,stroke:#B0BAD3,stroke-width:2px,color:#333,lineColor:#007bff;
+    classDef pipeStyle fill:#FFFFDE,stroke:#B0BAD3,stroke-width:2px,color:#333,lineColor:#007bff;
+    linkStyle default stroke: black;
 ```
 
-:::danger
-In this Lab, you will only configure Dev and Prod in the Pipeline.
-:::
 
 ## Instructions
-
-:::caution
-For this exercise, the specific Application Scope is not critical - Global is acceptable. Always check with your Platform Administrator for any company policies around **<a href="https://docs.servicenow.com/csh?topicname=connection-alias.html&version=latest" target="_blank">Connection and Credential Aliases ↗</a>**.
-:::
-
-:::warning
-**Complete this section in PROD.**
- 
-There's **NO** necessity to create a Pipeline in any other environment. 
+:::info
+Complete this exercise in the Global scope. 
 :::
 
 1. Click **All** >> type **pipelines** >> click **Pipelines**.
@@ -134,6 +133,8 @@ There's **NO** necessity to create a Pipeline in any other environment.
 |3| **Order**       | 100
 
 ![Environment Order Form](../../assets/images/2023-07-31-15-02-04.png)
+
+8. Click Submit.
 
 Your completed Pipeline record will look like this:
 

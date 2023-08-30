@@ -1,12 +1,9 @@
 ---
 title: Approve Deployment
 ---
+# Exercise: Approve and Deploy Sydney's App
 
-# Approve and Deploy Sydney's App
-
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 15 minutes</TimeEstimate>
+##### Estimated Time to Complete: 15 minutes
 
 ## Overview
 

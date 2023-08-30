@@ -1,15 +1,14 @@
 ---
 title: Configure Integration
 ---
+# Exercise: Configure Integration
 
-# Configure Integration
-
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 15 minutes</TimeEstimate>
+##### Estimated Time to Complete: 15 minutes
 
 :::info
 **THIS SECTION IS OPTIONAL AND CAN SAFELY BE SKIPPED IF YOU ARE BEHIND.**
+
+Skipping steps below will have not prevent you from completing the lab.
 :::
 
 ## Overview
@@ -18,14 +17,15 @@ In this section, Priya will go to **Dev** and work on Sydney's app.
 
 | Priya Bapat | Intgration Specialist
 |--|--
-| ![relative](../assets/images/Priya_Bapat.png) | Priya has many years in IT building integrations on various Platforms. She recently completed some Integration training on ServiceNow and is ready to assist Sydney.
+| ![relative](../assets/images/Priya.png) | Priya has many years in IT building integrations on various Platforms. She recently completed some Integration training on ServiceNow and is ready to assist Sydney.
+
 
 After Jayne approved the Collaboration Request, Priya received an email that she is now a collaborator on the app.
 
 :::info
 **SUBJECT:** You are now a collaborator
 
-![relative](https://creatorworkflowsnow.github.io/lab-aemc-utah-v2/assets/images/2023-07-11-20-59-36.png)
+![relative](../assets/images/2023-07-11-20-59-36.png)
 :::
 
 When Priya clicks the button in the email she is taken directly to App Engine Studio in Dev; however, we will simulate this.
@@ -37,6 +37,7 @@ Complete this section in **DEV**.
 :::
 
 1. Log in to **Dev**.
+
 
 2. In the top right, click the user avatar icon » **Impersonate another user**.
 

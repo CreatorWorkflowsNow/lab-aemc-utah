@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## Collaborate to Accelerate
 
-**Revolutionizing Enterprise App Dev at Scale**
+### Revolutionizing Enterprise App Dev at Scale
 
 *Formerly known as the Low-Code Governance Workshop Lab*
 

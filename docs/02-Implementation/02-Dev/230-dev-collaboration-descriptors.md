@@ -1,11 +1,9 @@
 ---
 title: Collaboration Descriptors
 ---
-# Collaboration Descriptors
+# Exercise: Collaboration Descriptors
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 10 minutes</TimeEstimate>
+##### Estimated Time to Complete: 10 minutes
 
 ## Overview
 
@@ -38,6 +36,7 @@ Complete this section in **DEV**.
 :::
 
 1. Log in **DEV**.
+
 
 2. Click **All** >> type **descriptor** >> click **Descriptors**.
 
@@ -79,10 +78,17 @@ Complete this section in **DEV**.
 
 Here are some important takeaways from this task:
 
-1. **Role of Collaboration Descriptors**: Collaboration descriptors play a critical role in assigning, managing, and monitoring delegated development permissions for each application or uniformly across multiple applications. Therefore, creating appropriate descriptors is essential to ensure efficient delegation of permissions.
+**Role of Collaboration Descriptors**
 
-2. **Focus on Global Scope and Standard**: It is crucial to create collaboration descriptors in the global scope and set them to standard for them to be visible and usable in AES. Any deviation from this guideline may lead to non-visibility or non-usability of the collaboration descriptors in AES.
+Collaboration descriptors play a critical role in assigning, managing, and monitoring delegated development permissions for each application or uniformly across multiple applications. Therefore, creating appropriate descriptors is essential to ensure efficient delegation of permissions.
 
-3. **Utility of Custom Collaboration Descriptors**: The process allows for the creation of custom collaboration descriptors that cater to specific needs beyond the predefined collaboration descriptors that come with activation. This flexibility allows for more precise permission delegation depending on the roles and requirements of users and groups.
 
+**Focus on Global Scope and Standard**
+
+It is crucial to create collaboration descriptors in the global scope and set them to standard for them to be visible and usable in AES. Any deviation from this guideline may lead to non-visibility or non-usability of the collaboration descriptors in AES.
+
+
+**Utility of Custom Collaboration Descriptors**
+
+The process allows for the creation of custom collaboration descriptors that cater to specific needs beyond the predefined collaboration descriptors that come with activation. This flexibility allows for more precise permission delegation depending on the roles and requirements of users and groups.
 

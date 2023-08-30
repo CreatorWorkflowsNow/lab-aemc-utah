@@ -1,12 +1,17 @@
 ---
-title: Build the app v2
+title: Build the entire app 
 ---
+# Exercise: Build the entire app from scratch
 
-# Build the app
+:::warning
+THIS SECTION IS UNDER CONSTRUCTION. 
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
+SKIP THIS SECTION AND MOVE ON TO COLLABORATION REQUEST.
 
-<TimeEstimate>Estimated Time to Complete: 15 minutes</TimeEstimate>
+[CLICK HERE TO CONTINUE TO COLLABORATION REQUEST](/docs/Simulation/collaboration-request/)
+:::
+
+##### Estimated Time to Complete: 60 minutes
 
 ## Overview
 

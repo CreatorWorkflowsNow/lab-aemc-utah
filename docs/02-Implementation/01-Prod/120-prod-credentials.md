@@ -2,11 +2,9 @@
 title: Credentials
 ---
 
-# Create Credential Alias
+# Exercise: Create Credential Alias
 
-import TimeEstimate from '@site/src/components/TimeEstimate';
-
-<TimeEstimate>Estimated Time to Complete: 5 minutes</TimeEstimate>
+##### Estimated Time to Complete: 5 minutes
 
 ## Overview 
 
@@ -16,22 +14,25 @@ In this case, it will be used by the Controller instance (Prod) to access other 
 
 You will create the Credential Alias with a user account that has already been created for you. 
 
-### Before
+
+### Before Exercise
 ``` mermaid
 graph LR
     subgraph Production[Production Instance]
     end
-    style Production fill:#CCFFCC
+    style Production fill:#CCFFCC,stroke:#B0BAD3,stroke-width:2px,color:#333;
 ```
 
-### After
+### After Exercise
 ``` mermaid
 graph LR
-    subgraph Production[Production Instance]
-       Credential("Credential Alias")
+    subgraph Production["Production Instance"]
+        Credential("Credential Alias")
     end
-    style Production fill:#CCFFCC
+    style Production fill:#CCFFCC,stroke:#B0BAD3,stroke-width:2px,color:#333;
+    style Credential fill:#ECECFF,stroke:#B0BAD3,stroke-width:2px,color:#333;
 ```
+
 
 ## Instructions
 
