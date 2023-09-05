@@ -202,6 +202,21 @@ h1 {
 
 }
 
+.markdown h4,
+[data-theme='dark'] .markdown h4 {
+  @apply bg-gray-500;
+  @apply ml-7;
+  @apply p-1;
+  @apply pl-4;
+  @apply rounded-md;
+  @apply text-white;
+}
+
+[data-theme='dark'] .markdown h4 {
+  @apply bg-gray-500;
+}
+
+
 /* Using h5 for the estimated time to complete buttons */
 .markdown h5 {
   @apply bg-gray-200;
@@ -286,6 +301,7 @@ h1 {
 /* Style the bullet points */
 .markdown ul {
   margin-left: 40px;
+  list-style: disc;
 }
 
 [data-theme='dark'] div.theme-doc-markdown.markdown h3, 

@@ -75,15 +75,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       title: '',
       logo: {
         alt: 'Creator Workshop Lab Guides',
-        /** src: 'img/ServiceNow_logo_RGB_BL_WasabiGreen.svg', **/
         src: 'img/servicenow-logo.png',
         srcDark: 'img/servicenow-logo_dark.png',
+        href: 'https://creatorworkflowsnow.github.io/',
+        target: '_self',
       },
       items: [
         {
-          label: 'ServiceNow.com',
-          href: 'https://www.servicenow.com',
+          label: 'Lab Guides Home',
+          href: 'https://creatorworkflowsnow.github.io/',
           position: 'right',
+          target: '_self',
         }
       ],
     },
