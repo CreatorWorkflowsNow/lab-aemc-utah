@@ -1,10 +1,7 @@
 ---
-title: 3. Before you Begin
+title: Tips and Tricks
 hide_table_of_contents: true
-sidebar_position: 3
 ---
-
-# Before you begin
 
 ##### Estimated Time to Complete: 5 minutes
 

@@ -79,7 +79,7 @@ Sydney receives an email letting her know that her Deployment Request was submit
 :::info
 **SUBJECT:** IT Time Off Request is being reviewed by your admin
 
-![relative](https://creatorworkflowsnow.github.io/lab-aemc-utah-v2/assets/images/2023-07-11-22-05-08.png)
+![relative](../assets/images/2023-07-11-22-05-08.png)
 :::
 
 ## Lessons Learned

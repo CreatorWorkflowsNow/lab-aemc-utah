@@ -1,10 +1,7 @@
 ---
-title: 2. Lab Structure
+title: Lab Structure
 hide_table_of_contents: true
-sidebar_position: 2
 ---
-
-# Lab Structure
 
 ## Implementation
 

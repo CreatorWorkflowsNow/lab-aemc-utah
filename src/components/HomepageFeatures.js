@@ -53,6 +53,6 @@ const FeatureList = [
       Revolutionizing the way applications are crafted on the ServiceNow Platform, empowered by the capabilities of the App Engine Management Center.
       </>
     ),
-    to: "docs/Before-you-begin/about-this-lab/",
+    to: "docs",
   },
 ];
