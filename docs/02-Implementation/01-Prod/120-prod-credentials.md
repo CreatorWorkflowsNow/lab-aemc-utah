@@ -87,19 +87,30 @@ Errors will occur if you do not use the specified password provided below.
 
 9. On the **Basic Auth Credentials** form, fill in the following values and click **Submit**.
 
-| **Field** | **Value**
-| -- | --|
-| **Name** | Pipeline Service Account 
-| **User name** | svc_pipeline
-| **Password** | ILoveHyperAutomationTimes500!
-
-:::caution
-YOU MUST USE THE ENTIRE PASSWORD ABOVE!!
-
-Remember to triple-click to save time selecting.
+:::info
+Remember to use the copy button to copy the text below.
 :::
 
+##### Username
+```
+Pipeline Service Account 
+```
+
+##### Username
+```
+svc_pipeline
+```
+
+##### Password
+```
+ILoveHyperAutomationTimes500!
+```
+
 ![Enter Credentials](../../assets/images/2023-06-27-22-50-59.png)
+
+:::note
+The dots in the password field will be shorter after you save the password.  This is normal
+:::
 
 ## Lessons Learned
 
