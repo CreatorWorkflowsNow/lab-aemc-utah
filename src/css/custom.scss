@@ -12,7 +12,6 @@
 @import './fonts.scss';
 @import './footer.scss';
 
-
 :root {
   --doc-sidebar-hidden-width: 30px;
   --doc-sidebar-width: 300px;
@@ -328,36 +327,9 @@ h1 {
   @apply mx-10;
 }
 
-/* Style the copy button */
+/* Prism - Code display and editor Styling */ 
 
-.buttonGroup_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module button {
-  opacity: 0.9 !important;
-  background-color: #DADBDD !important;
-  border: 0.5px solid #a7a7a7!important;
-  color: #a7a7a7 !important;
-}
-
-.buttonGroup_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module:hover button {
-  background-color: #bcbcbd !important;
-  color: #a7a7a7 !important;
-}
-
-.copyButtonSuccessIcon_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-CopyButton-styles-module {
-  color: #ffffff !important;
-}
-
-[data-theme='dark'] .buttonGroup_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module button {
-  background-color: #374151 !important;
-  border: 0.5px solid #4B5563 !important;
-  color: #dddddd !important;
-}
-
-[data-theme='dark'] .buttonGroup_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module:hover button {
-  background-color: #1F2937 !important;
-  border: 0.5px solid #4B5563 !important;
-  color: #aaaaaa !important;
-}
-
+/*Style the copy button */
 /*----------------------------------------------------------------------*/
 /* Right hand side markdown table of contents for current page */
 

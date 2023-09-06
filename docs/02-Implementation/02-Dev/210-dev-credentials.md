@@ -93,18 +93,15 @@ Errors will occur if you do not use the specified password provided below.
 Remember to use the copy button to copy the text below.
 :::
 
-##### Username
-```
+```jsx title="Name"
 Pipeline Service Account 
 ```
 
-##### Username
-```
+```jsx title="Username"
 svc_pipeline
 ```
 
-##### Password
-```
+```jsx title="Password"
 ILoveHyperAutomationTimes500!
 ```
 
