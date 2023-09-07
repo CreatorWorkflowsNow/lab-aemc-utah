@@ -1,9 +1,9 @@
 # App Engine Management Center Lab (UTAH)
 
-[![pages-build-deployment](https://github.com/CreatorWorkflowsNow/lab-aemc-utah-v2/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/CreatorWorkflowsNow/lab-aemc-utah-v2/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/CreatorWorkflowsNow/lab-aemc-utah/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/CreatorWorkflowsNow/lab-aemc-utah/actions/workflows/pages/pages-build-deployment)
 
 ## Table of contents
-- [App Engine Management Center Lab](#app-engine-management-center-lab)
+- [App Engine Management Center Lab (UTAH)](#app-engine-management-center-lab-utah)
   - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Main Sections](#main-sections)
