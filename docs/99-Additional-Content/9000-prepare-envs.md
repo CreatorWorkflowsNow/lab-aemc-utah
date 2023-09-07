@@ -1,7 +1,6 @@
 ---
 title: Prepare Environments
-nav_order: 9160
-permalink: /docs/aemc-utah/prepare-envs
+hide_table_of_contents: true
 ---
 
 # Prepare Environments

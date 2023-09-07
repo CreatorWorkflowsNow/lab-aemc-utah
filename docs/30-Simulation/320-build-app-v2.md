@@ -1,5 +1,6 @@
 ---
 title: Build the entire app 
+draft: true
 ---
 # Exercise: Build the entire app from scratch
 

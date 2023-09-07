@@ -1,19 +1,18 @@
 ---
+id: intro
 sidebar_position: 0
-title: Introduction
+sidebar_label: Introduction
+title: Collaborate to Accelerate
 hide_table_of_contents: true
 ---
 
-# Introduction
+# Collaborate to Accelerate:<br/>Learn to build and govern App Engine applications
 
-## Collaborate to Accelerate
+## In this lab, you will learn:
 
-### Revolutionizing Enterprise App Dev at Scale
-
-*Formerly known as the Low-Code Governance Workshop Lab*
-
-In this lab, we embark on a journey to elevate the landscape of enterprise application development. Our focus is on revolutionizing the way applications are crafted on the ServiceNow Platform, empowered by the capabilities of the App Engine Management Center.
-
-Through seamless collaboration among pro-code, low-code, and no-code developers within a unified platform, we unlock the potential to expedite the entire development lifecycle.
-
-
+* How to setup App Engine Management Center for the first time
+* What is a Citizen Developer
+* How a Citizen Developer applies for access to App Engine Studio
+* How to manage developers in App Engine Management Center
+* How collaboration happens in App Engine Studio
+* How to deploy applications with App Engine 

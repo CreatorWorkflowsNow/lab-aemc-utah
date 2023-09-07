@@ -1,5 +1,6 @@
 ---
 title: AES vs. Studio
+hide_table_of_contents: true
 ---
 
 # App Engine Studio vs. ServiceNow Studio

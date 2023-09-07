@@ -3,9 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      screens: {
-        'xs': '480px', // custom breakpoint
-      },
+
       colors: {
         nowblue:'#24C2CE', 
         nowcyan:'#0ED3CF', 
@@ -29,6 +27,14 @@ module.exports = {
           700: '#2B992A', 
           800: '#007E0A', 
         },
+      },
+
+      fontFamily: {
+        sans: ['Gilroy-Regular', 'sans-serif'],
+      },
+
+      screens: {
+        'xs': '480px', // custom breakpoint
       },
     },
   },

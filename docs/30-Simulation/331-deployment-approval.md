@@ -104,7 +104,9 @@ That completes the App Engine Governance Lab!
 
 ## Got feedback?
 
-Submit the [Post Lab Survey↗](https://crewteam.service-now.com/esc?id=workshop_survey&type_id=ff8cc99e877d21106af8ec6e0ebb3546)
+Please consider taking the post-workshop survey, thanks!
+
+##### [Post Lab Survey ↗](https://crewteam.service-now.com/esc?id=workshop_survey&type_id=ff8cc99e877d21106af8ec6e0ebb3546)
 
 ## Want to learn more? 
 

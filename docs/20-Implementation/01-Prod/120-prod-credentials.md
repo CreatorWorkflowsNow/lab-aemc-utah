@@ -1,5 +1,5 @@
 ---
-title: Credentials
+title: Credential Alias
 ---
 
 # Exercise: Create Credential Alias

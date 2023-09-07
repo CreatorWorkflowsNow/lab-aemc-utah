@@ -1,10 +1,11 @@
 ---
 title: Product Documentation
+hide_table_of_contents: true
 ---
 
 # Product Documentation
 
-## **[Building applications↗](https://docs.servicenow.com/csh?topicname=build-applications.html&version=latest)**
+##### [Docs: Building applications↗](https://docs.servicenow.com/csh?topicname=build-applications.html&version=latest)
 
 Learn how to become an application developer using Now Platform low-code tools. Start with what you know and use a library of reusable components and published applications to modernize your legacy processes.
 
@@ -16,5 +17,5 @@ Learn how to become an application developer using Now Platform low-code tools. 
   - [Maintaining your application↗](https://docs.servicenow.com/bundle/vancouver-application-development/page/build/custom-application/concept/maintaining-applications.html)
 
 
-## [Application Repository↗](https://docs.servicenow.com/csh?topicname=app-repo.html&version=latest)
+##### [Docs: Application Repository↗](https://docs.servicenow.com/csh?topicname=app-repo.html&version=latest)
 After you develop and test a custom application, you can make the application available to company instances by publishing it to the ServiceNow application repository...

@@ -3,15 +3,9 @@ title: Tips and Tricks
 hide_table_of_contents: true
 ---
 
-##### Estimated Time to Complete: 5 minutes
-
-Below are some tips and tricks that you may find useful in the lab today.
-
 ## Remember The Copy Button
 
-Look for the button to the right when you see a box like this:
-
-Click the button to copy the value in the box. 
+Look for the button to the right when you see a text box like below . Click the button to copy the value in the box. 
 
 ```
 Text to copy
@@ -27,6 +21,6 @@ If you do not use the provided username and password, you will get the following
 
 ![relative](../assets/images/2023-07-31-12-39-48.png)
 
-## Scope
+## Scope: Global
 
 All activities will be performed in the Global scope unless otherwise specified. 

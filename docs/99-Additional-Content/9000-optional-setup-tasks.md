@@ -69,13 +69,13 @@ For more information on integrations with third-party systems, see **[Product Do
 :::
 
 ---
-## Review Flow Designer access settings from App Engine Studio in Dev Environment
+## Review Flow Designer access settings 
 
 :::caution
 This step is not required as part of the initial App Engine Studio setup.
 :::
 
-Review and update App Engine Studio developer access settings to Flow Designer Resources and update as necessary.
+Review and update App Engine Studio developer access settings in the development environment to Flow Designer Resources and update as necessary.
 
 Developers can leverage Flow Designer capabilities while creating logic and automation for custom applications.
 
@@ -91,13 +91,13 @@ For more information on Flow Designer resources, see **[Product Documentation: C
 :::
 
 ---
-## Review Service Catalog access settings in Dev Environment
+## Review Service Catalog access settings
 
 :::caution
 This step is not required as part of the initial App Engine Studio setup.
 :::
 
-Review App Engine Studio developer access to the Catalog Builder tool’s catalog item templates and catalogs/categories and update access as necessary.
+Review App Engine Studio developer access in the development environment to the Catalog Builder tool’s catalog item templates and catalogs/categories and update access as necessary.
 
 By default, App Engine Studio developers can leverage catalog templates to quickly create record producers or catalog items. Developers can also publish catalog items to any catalog. If you wish to limit access to templates or restrict publishing access to catalogs or categories, update the access accordingly in Catalog Builder.
 
@@ -109,7 +109,7 @@ For more information on creating or editing catalog items, see **[Product Docume
 
 ---
 
-## Configure Instance Scan cadence in Health Center
+## Configure Instance Scan 
 
 :::caution
 This step is not required as part of the initial App Engine Studio setup.

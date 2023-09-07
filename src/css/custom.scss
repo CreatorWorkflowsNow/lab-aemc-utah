@@ -15,58 +15,72 @@
 :root {
   --doc-sidebar-hidden-width: 30px;
   --doc-sidebar-width: 300px;
+
   --docusaurus-announcement-bar-height: auto;
   --docusaurus-collapse-button-bg: #0000;
   --docusaurus-collapse-button-bg-hover: #0000001a;
   --docusaurus-highlighted-code-line-bg: #0000001a;
   --docusaurus-progress-bar-color: var(--ifm-color-primary);
   --docusaurus-tag-list-border: var(--ifm-color-emphasis-300);
+
   --footer-gray: #242526;
+
   --homepage-feature: #1B1B1D;
   --homepage-feature-box: #F7F7F7;
+
   --ifm-background-color: #ffffff;
-  --ifm-color-primary: var(--servicenow-brand-blue);
+
+  --ifm-color-primary: var(--now-infinite-blue);
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+
   --ifm-code-font-size: 95%;
-  --ifm-footer-background-color: var(--servicenow-brand-blue);
+
+  --ifm-footer-background-color: var(--now-infinite-blue);
   --ifm-footer-color: var(--ifm-color-emphasis-300);
   --ifm-footer-link-color: var(--ifm-color-emphasis-200);
   --ifm-footer-link-hover-color: var(--ifm-link-color);
   --ifm-footer-title-color: var(--ifm-color-emphasis-100);
-  --ifm-heading-color: var(--now-brand-green-darker);
-  --ifm-heading-font-family: 'Gilroy-Regular';
-  --ifm-link-color: var(--now-brand-green-darker);
 
-  --now-brand-blue: rgb(3, 45, 66);
-  --now-brand-green: rgb(134, 237, 120);
-  --now-brand-green-darker: #62d84e;
+  --ifm-heading-color: var(--now-wasabi-green);
+  --ifm-heading-font-family: 'Gilroy-Regular';
+
+  --ifm-link-color: var(--now-wasabi-green);
+
+  --now-black: #000;
+  --now-dark-blue: rgb(26, 93, 104);
+  --now-infinite-blue: rgb(3, 45, 66);
+  --now-gray: rgb(219, 221, 225);
+  --now-green: rgb(0, 145, 86);
+  --now-wasabi-green: rgb(134, 237, 120);
+
   --now-button--primary--background-color: rgb(58, 87, 233);
   --now-button--primary--background-color--active: rgb(31, 66, 150);
   --now-button--primary--color: rgb(255, 255, 255);
   --now-button--scale-size-block: 50px;
   --now-button--scale-size-inline: 100px;
-  --now-color-white: rgb(255, 255, 255);
-  --now-color-gray: rgb(219, 221, 225);
-  --now-color-dark-green: rgb(63, 143, 91);
-  --now-download-green: rgb(0, 145, 86);
-  --servicenow-brand-blue: #032d42;
-  --servicenow-brand-blue-lighter: #1a5d68;
-  --servicenow-brand-black: #000;
-  --servicenow-brand-gray: #999;
-  --servicenow-brand-green: #86ed78;
-  --servicenow-brand-green-darker: #62d84e;
+
+  --white: rgb(255, 255, 255);
+}
+
+[data-theme='dark']:root {
+  --ifm-color-scheme: dark;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: var(--now-wasabi-green);
+
+  --dark-background-color: #20232a;
+  --dark-text-color: #ffffff;
+  --dark-h1: #ffffff;
 }
 
 
 /*--- Very global stuff ---*/
 html body {
   color: #333333;
-  font-family: "Gilroy-Regular", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.42857;
   margin: 0;
@@ -122,7 +136,7 @@ h1 {
   width: 40px;
   height: 40px;
   background-color: var(--now-button--primary--background-color);
-  color: var(--now-color-white);
+  color: var(--white);
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -164,7 +178,7 @@ h1 {
   width: 16rem;
   height: 5px;
   /* Height of the border line */
-  background-color: var(--now-color-dark-green);
+  background-color: var(--now-green);
   display: block;
 }
 
@@ -268,7 +282,7 @@ h1 {
   @apply list-decimal;
   @apply bg-gray-300 ;
   @apply pl-8;
-  border-top: 1px solid var(--now-color-gray);
+  border-top: 1px solid var(--now-gray);
   border-radius: 1em 0 0 1em; /* Top-left and bottom-left rounded */
 }
 
@@ -367,7 +381,7 @@ h1 {
 /*---DOWNLOAD-BOX-STUFF-----------------------------*/
 
 .download-box {
-  background-color: var(--now-download-green);
+  background-color: var(--now-green);
   height: 176px;
   display: flex;
   justify-content: center;
@@ -521,29 +535,6 @@ h1 {
 }
 
 
-[data-theme='dark']:root {
-  --ifm-color-scheme: dark;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-background-color: bg-nowgreen;
-  --ifm-color-primary: var(--servicenow-brand-green);
-
-  --dark-background-color: #20232a;
-  --dark-text-color: #ffffff;
-  --dark-h1: #ffffff;
-}
-
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: var(--docusaurus-highlighted-code-line-bg);
-}
-
-.clean-btn {
-  @apply bg-gray-200;
-}
-
-[data-theme='dark'] .clean-btn {
-  @apply bg-gray-600;
-  @apply text-gray-300;
-}
 
 .menu__link--active {
   @apply font-bold;
@@ -553,7 +544,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 
-/* MERMAID STUFF */
+/*--------------------------------------------------
+ * MERMAID STUFF 
+ */
 .docusaurus-mermaid-container {
   @apply ml-10;
 }
@@ -563,4 +556,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   stroke:#000 !important; 
   fill:#000 !important; 
   stroke-width:3px !important; 
+}
+
+.noshadow {
+  box-shadow: none !important;
 }
