@@ -46,13 +46,13 @@ export default HomepageFeatures;
 
 const FeatureList = [
   {
-    title: 'App Governance',
+    title: 'Collaborate to Accelerate',
     icon: faCog,
     description: (
       <>
-      Revolutionizing the way applications are crafted on the ServiceNow Platform, empowered by the capabilities of the App Engine Management Center.
+      Learn to build and govern low-code applications with App Engine Management Center.
       </>
     ),
-    to: "docs",
+    to: "https://creatorworkflowsnow.github.io/lab-aemc/get_started/intro/",
   },
 ];
