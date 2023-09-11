@@ -18,18 +18,18 @@ const HomepageFeatures = () => (
   </div>
 );
 
-const Feature = ({ title, description, to, icon }) => (
+const Feature = ({ title, description, to, icon, target}) => (
   <li className={clsx('p-6 md:mt-6 lg:mt-8 pb-6 md:pb-8 lg:pb-10')}>
     <div className={clsx('flex')}>
         <div className={clsx('flex-shrink-0')}>
-          <Link to={to} className={clsx('hover:no-underline')}>
+          <Link to={to} className={clsx('hover:no-underline')} target={target}>
             <div className={clsx('flex items-center justify-center h-10 w-10 rounded-md bg-nowinfblue-100 hover:bg-nowinfblue-200 text-nowwasabi hover:text-nowwasabi/70 dark:bg-nowwasabi dark:hover:bg-nowwasabi/70 dark:text-white dark:hover:text-white')}>
             <FontAwesomeIcon className={clsx('')} icon={icon} alt={title} />
             </div>
           </Link>
         </div>
         <div className={clsx('ml-4 mr-4')}>
-          <Link to={to} className={clsx('hover:no-underline')}>
+          <Link to={to} className={clsx('hover:no-underline')} target={target}>
             <h4 className={clsx('text-xl leading-6 font-extrabold text-nowinfblue-100 hover:text-nowwasabi dark:text-white dark:hover:text-white/70')}>
               {title}
             </h4>
@@ -54,5 +54,6 @@ const FeatureList = [
       </>
     ),
     to: "https://creatorworkflowsnow.github.io/lab-aemc/get_started/intro/",
+    target: "_self",
   },
 ];
