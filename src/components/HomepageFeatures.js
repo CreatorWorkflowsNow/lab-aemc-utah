@@ -46,14 +46,13 @@ export default HomepageFeatures;
 
 const FeatureList = [
   {
-    title: 'Collaborate to Accelerate',
+    title: 'Go to main Lab Guide Website',
     icon: faCog,
     description: (
       <>
-      Learn to build and govern low-code applications with App Engine Management Center.
       </>
     ),
-    to: "https://creatorworkflowsnow.github.io/lab-aemc/get_started/intro/",
+    to: "https://creatorworkflowsnow.github.io/",
     target: "_self",
   },
 ];
